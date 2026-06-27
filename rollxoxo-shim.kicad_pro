@@ -557,21 +557,21 @@
       {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 3, 17)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "RF",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -580,7 +580,14 @@
         "diff_pair_width": 0.3,
         "name": "USB",
         "pcb_color": "rgb(34, 255, 22)",
-        "priority": 2,
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "XTAL",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -614,6 +621,10 @@
       {
         "netclass": "RF",
         "pattern": "/RF*"
+      },
+      {
+        "netclass": "XTAL",
+        "pattern": "/XTAL*"
       }
     ]
   },
