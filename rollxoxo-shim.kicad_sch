@@ -11181,6 +11181,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 105.41 113.03 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1840985c-7324-4cfa-b799-2a033afb04af")
+		(property "Reference" "J5"
+			(at 107.95 111.7601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 107.95 110.4901 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal"
+			(at 105.41 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "8dde8ba1-8d02-4f10-840f-3b7cccf12a1e")
+		)
+		(pin "6"
+			(uuid "71ed4c96-fcdf-4009-a465-ef1a762aac0d")
+		)
+		(pin "8"
+			(uuid "d00cc989-0578-44f7-a141-21d8474eaa56")
+		)
+		(pin "3"
+			(uuid "edd5e084-12cb-4954-ad59-66579fe20fdf")
+		)
+		(pin "5"
+			(uuid "9d09fcd9-a0e4-46fb-982b-f1b05cf1858e")
+		)
+		(pin "2"
+			(uuid "55ed9681-4493-46d9-8bde-f2a41e38ff70")
+		)
+		(pin "10"
+			(uuid "b4c36095-ab6b-4417-9b6f-00f932e82601")
+		)
+		(pin "7"
+			(uuid "e08dead9-349d-4acf-bce5-ae6d6fae15db")
+		)
+		(pin "4"
+			(uuid "482908a1-a310-4a51-8ef2-822ecc8b9fe5")
+		)
+		(pin "1"
+			(uuid "f0482875-df00-44af-b524-047b48d4b0e4")
+		)
+		(instances
+			(project "rollxoxo-shim"
+				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 66.04 0)
 		(unit 1)
@@ -14271,112 +14378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 105.41 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d1df3d3-b62e-4521-89c5-80ff85683cdd")
-		(property "Reference" "J5"
-			(at 107.95 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 107.95 113.0299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal"
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "39abd0c8-e956-4b40-8d86-e5686575a32a")
-		)
-		(pin "6"
-			(uuid "ef68fac9-f584-4145-8a90-d618a275b35d")
-		)
-		(pin "8"
-			(uuid "f60fe666-80ed-42b8-94db-07a270b2ce36")
-		)
-		(pin "3"
-			(uuid "398100c4-9eb3-4bb5-a053-df781707a1d6")
-		)
-		(pin "5"
-			(uuid "efb497e1-277c-4239-b26a-d74b72e86f0f")
-		)
-		(pin "2"
-			(uuid "249c9502-013f-4f18-b417-b23fc0f0e95e")
-		)
-		(pin "10"
-			(uuid "b49ae11b-fcc9-4b9a-978c-38d0f8c11f74")
-		)
-		(pin "7"
-			(uuid "d22173d3-42a5-4c71-997f-3810268e4f09")
-		)
-		(pin "4"
-			(uuid "e91f49e2-2465-4d40-b12a-f005baa6e3f1")
-		)
-		(pin "1"
-			(uuid "eddd3d3f-36f5-41d5-aaa2-4883d9fb67c0")
-		)
-		(instances
-			(project "rollxoxo-shim"
-				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 31.75 0)
 		(unit 1)
@@ -16078,6 +16079,112 @@
 			(project "rollxoxo-shim"
 				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 81.28 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70e0dbd2-31c6-4343-a5ab-2e4981f3bb4e")
+		(property "Reference" "J3"
+			(at 78.74 111.7601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 78.74 110.4901 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal"
+			(at 81.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "f0c6a5cf-9e89-4c9f-a8a6-6bb5b82b5bad")
+		)
+		(pin "6"
+			(uuid "df757acf-eff7-4398-bcbe-b1d49e2c5225")
+		)
+		(pin "8"
+			(uuid "71bc2f04-173f-4b58-a740-9e50d95865a1")
+		)
+		(pin "3"
+			(uuid "21687808-6ec3-4a8c-a65e-6808cc12cf00")
+		)
+		(pin "5"
+			(uuid "fe92180b-cf36-41f1-b7f3-1604351a700c")
+		)
+		(pin "2"
+			(uuid "30a93998-e88a-4e63-90aa-47f918b298f0")
+		)
+		(pin "10"
+			(uuid "2690f797-139b-4e4c-89c7-14099327d16e")
+		)
+		(pin "7"
+			(uuid "70e5f254-25ab-4738-8f43-f166054f6112")
+		)
+		(pin "4"
+			(uuid "ccc3e429-a97b-4aa4-ac46-7930e966da55")
+		)
+		(pin "1"
+			(uuid "df1773d9-bd03-4181-bf7c-931f1d4c5454")
+		)
+		(instances
+			(project "rollxoxo-shim"
+				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -20195,113 +20302,6 @@
 			(project "rollxoxo-shim"
 				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 81.28 110.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c194e1e6-562a-47b9-80ec-2d736ab3e671")
-		(property "Reference" "J3"
-			(at 78.74 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 78.74 113.0299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal"
-			(at 81.28 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "b8eb1543-dd14-4c1a-8e09-63aec2ec5ba3")
-		)
-		(pin "6"
-			(uuid "2cc4b5bb-3acd-4a40-898c-832611bd2696")
-		)
-		(pin "8"
-			(uuid "73e51a61-8d1b-4f8c-9181-199e4f4340d0")
-		)
-		(pin "3"
-			(uuid "2d9435d6-e8dd-44cb-a0ef-a8bcfa295ed2")
-		)
-		(pin "5"
-			(uuid "0bcf52d4-05cd-414d-8ec9-0a6523b66a4d")
-		)
-		(pin "2"
-			(uuid "dae7b0fd-6758-4ab2-b388-de653e26cd91")
-		)
-		(pin "10"
-			(uuid "44da1f2b-254d-4b87-b2ef-1814be3f1a87")
-		)
-		(pin "7"
-			(uuid "4cde8a99-b01f-4877-8732-b4e76e171028")
-		)
-		(pin "4"
-			(uuid "79f3f16b-19c6-4dd1-a613-780c0b1d9d22")
-		)
-		(pin "1"
-			(uuid "f065abab-0e14-4929-a33f-3706a6a2bb6f")
-		)
-		(instances
-			(project "rollxoxo-shim"
-				(path "/a7ed83d6-0dbd-4a58-9db2-84a345940fc7"
-					(reference "J3")
 					(unit 1)
 				)
 			)
