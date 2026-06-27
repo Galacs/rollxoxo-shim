@@ -6126,10 +6126,6 @@
 		(uuid "24feb77f-90f3-4c05-8805-99bdb4897c65")
 	)
 	(no_connect
-		(at 250.19 83.82)
-		(uuid "256e4ed5-d510-45b4-9d93-04c153046b65")
-	)
-	(no_connect
 		(at 250.19 88.9)
 		(uuid "2c8528a4-7bbb-49fb-98bf-ceb78e26f889")
 	)
@@ -6192,6 +6188,10 @@
 	(no_connect
 		(at 184.15 81.28)
 		(uuid "a190e091-f7c1-4dbc-b5ee-c76f2dcc219c")
+	)
+	(no_connect
+		(at 250.19 104.14)
+		(uuid "a2402054-f6d3-440d-97d1-2bcbf1557579")
 	)
 	(no_connect
 		(at 250.19 111.76)
@@ -6707,13 +6707,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 96.52) (xy 250.19 96.52)
+			(xy 259.08 96.52) (xy 250.19 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "265b3e3d-f77d-4481-83dc-4179fb9d8691")
+	)
+	(wire
+		(pts
+			(xy 259.08 83.82) (xy 250.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f5db8c-e517-4863-8bd6-197c1c75abd6")
 	)
 	(wire
 		(pts
@@ -6907,7 +6917,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 91.44) (xy 250.19 91.44)
+			(xy 259.08 91.44) (xy 250.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7367,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 109.22) (xy 250.19 109.22)
+			(xy 259.08 109.22) (xy 250.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7414,16 +7424,6 @@
 			(type default)
 		)
 		(uuid "72de8254-e9ef-48f9-bd30-42825c0f6cbb")
-	)
-	(wire
-		(pts
-			(xy 260.35 104.14) (xy 250.19 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731cbcc2-724b-48c0-9634-35458ea38644")
 	)
 	(wire
 		(pts
@@ -8097,7 +8097,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 106.68) (xy 250.19 106.68)
+			(xy 259.08 106.68) (xy 250.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8217,7 +8217,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 93.98) (xy 250.19 93.98)
+			(xy 259.08 93.98) (xy 250.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8357,7 +8357,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 101.6) (xy 250.19 101.6)
+			(xy 259.08 101.6) (xy 250.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8775,16 +8775,6 @@
 		)
 		(uuid "09c70fa5-1ead-4275-88cb-2c6c20fa9702")
 	)
-	(label "FLASH"
-		(at 260.35 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12ca790b-3e77-43b8-a4ba-9e6d79e8d94e")
-	)
 	(label "XTAL_N"
 		(at 105.41 142.24 180)
 		(effects
@@ -8835,6 +8825,16 @@
 		)
 		(uuid "2b1dc109-98e7-4756-80f8-718eec181177")
 	)
+	(label "FLASH"
+		(at 259.08 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30701fbf-927d-45d0-9874-075fdd1cbd39")
+	)
 	(label "UP_BTN"
 		(at 59.69 125.73 180)
 		(effects
@@ -8866,7 +8866,7 @@
 		(uuid "4146285c-a1b3-47d6-8deb-b221c9ad5f55")
 	)
 	(label "REED_B"
-		(at 260.35 109.22 180)
+		(at 259.08 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8896,7 +8896,7 @@
 		(uuid "51e55618-d8bb-4ab4-ba0f-57f5388ac953")
 	)
 	(label "LIGHT"
-		(at 260.35 101.6 180)
+		(at 259.08 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8926,7 +8926,7 @@
 		(uuid "78a9c5d2-a564-42fa-a687-c4f4a7f30c8d")
 	)
 	(label "DOWN"
-		(at 260.35 91.44 180)
+		(at 259.08 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9016,7 +9016,7 @@
 		(uuid "a9a4b156-946d-4999-8ffa-42b930b0fcc9")
 	)
 	(label "REED_A"
-		(at 260.35 106.68 180)
+		(at 259.08 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9076,7 +9076,7 @@
 		(uuid "d15cf9a8-bd35-4cf8-81e7-68ed4d24e2e7")
 	)
 	(label "STOP"
-		(at 260.35 93.98 180)
+		(at 259.08 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9126,7 +9126,7 @@
 		(uuid "e7a5b303-6890-4906-8044-c13570d0fcc5")
 	)
 	(label "UP"
-		(at 260.35 96.52 180)
+		(at 259.08 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
