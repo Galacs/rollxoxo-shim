@@ -6898,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 96.52) (xy 250.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265b3e3d-f77d-4481-83dc-4179fb9d8691")
+	)
+	(wire
+		(pts
 			(xy 43.18 133.35) (xy 43.18 134.62)
 		)
 		(stroke
@@ -7085,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "3b19d441-4d71-423d-bbc2-846f9d44fd12")
+	)
+	(wire
+		(pts
+			(xy 260.35 91.44) (xy 250.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3cf382-a57c-41c8-b2d0-16aa1216a821")
 	)
 	(wire
 		(pts
@@ -7548,6 +7568,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 109.22) (xy 250.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711189ab-fea4-4e89-846d-5daace5453b8")
+	)
+	(wire
+		(pts
 			(xy 80.01 73.66) (xy 80.01 74.93)
 		)
 		(stroke
@@ -7585,6 +7615,16 @@
 			(type default)
 		)
 		(uuid "72de8254-e9ef-48f9-bd30-42825c0f6cbb")
+	)
+	(wire
+		(pts
+			(xy 260.35 104.14) (xy 250.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731cbcc2-724b-48c0-9634-35458ea38644")
 	)
 	(wire
 		(pts
@@ -8268,6 +8308,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 106.68) (xy 250.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb643f3e-4f85-499e-b2a3-c3d208581f19")
+	)
+	(wire
+		(pts
 			(xy 133.35 181.61) (xy 133.35 180.34)
 		)
 		(stroke
@@ -8375,6 +8425,16 @@
 			(type default)
 		)
 		(uuid "c55a1d76-9fec-49b3-86e9-c24514699530")
+	)
+	(wire
+		(pts
+			(xy 260.35 93.98) (xy 250.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56b9169-eab6-48c7-8082-9f5f08490ee8")
 	)
 	(wire
 		(pts
@@ -8515,6 +8575,16 @@
 			(type default)
 		)
 		(uuid "d5422f04-d5de-48dd-8ce0-75a7477f3e21")
+	)
+	(wire
+		(pts
+			(xy 260.35 101.6) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64a6260-c15e-4f9f-a4bf-05908fd9e1a3")
 	)
 	(wire
 		(pts
@@ -8946,6 +9016,16 @@
 		)
 		(uuid "09c70fa5-1ead-4275-88cb-2c6c20fa9702")
 	)
+	(label "FLASH"
+		(at 260.35 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12ca790b-3e77-43b8-a4ba-9e6d79e8d94e")
+	)
 	(label "XTAL_N"
 		(at 105.41 142.24 180)
 		(effects
@@ -9026,6 +9106,16 @@
 		)
 		(uuid "4146285c-a1b3-47d6-8deb-b221c9ad5f55")
 	)
+	(label "REED_B"
+		(at 260.35 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "454b1883-34b2-44f2-a493-b4051f712cf6")
+	)
 	(label "XTAL_P"
 		(at 76.2 142.24 0)
 		(effects
@@ -9046,6 +9136,16 @@
 		)
 		(uuid "51e55618-d8bb-4ab4-ba0f-57f5388ac953")
 	)
+	(label "LIGHT"
+		(at 260.35 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "542e13d4-407f-470f-8c3d-3796ca618ae0")
+	)
 	(label "STOP"
 		(at 27.94 93.98 0)
 		(effects
@@ -9065,6 +9165,16 @@
 			(justify left bottom)
 		)
 		(uuid "78a9c5d2-a564-42fa-a687-c4f4a7f30c8d")
+	)
+	(label "DOWN"
+		(at 260.35 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b76d4fd-9963-47d4-ace4-d9d5fd885c77")
 	)
 	(label "LIGHT"
 		(at 105.41 76.2 180)
@@ -9167,6 +9277,16 @@
 		(uuid "a9c7817c-0756-44c5-ac6f-dfdac32f1dc5")
 	)
 	(label "REED_A"
+		(at 260.35 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0ae0f6f-19d0-4f68-b6cd-8e077fc45ceb")
+	)
+	(label "REED_A"
 		(at 125.73 115.57 0)
 		(effects
 			(font
@@ -9216,6 +9336,16 @@
 		)
 		(uuid "d15cf9a8-bd35-4cf8-81e7-68ed4d24e2e7")
 	)
+	(label "STOP"
+		(at 260.35 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d17084d6-fad5-428f-bcf0-58adf6b24f1f")
+	)
 	(label "D-"
 		(at 66.04 175.26 180)
 		(effects
@@ -9255,6 +9385,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7a5b303-6890-4906-8044-c13570d0fcc5")
+	)
+	(label "UP"
+		(at 260.35 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eebed04d-33eb-4b14-93f1-014889ff76d1")
 	)
 	(label "BOOT"
 		(at 135.89 139.7 180)
