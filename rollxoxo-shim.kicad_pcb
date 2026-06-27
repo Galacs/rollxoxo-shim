@@ -1867,7 +1867,7 @@
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "14fa2849-7155-48b8-b2de-219ce607707e")
-		(at 60.09 158.485)
+		(at 60.75 158)
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "inductor")
 		(property "Reference" "L2"
@@ -2269,7 +2269,7 @@
 	(footprint "RF_Antenna:Johanson_2450AT18x100"
 		(layer "F.Cu")
 		(uuid "1e9a0bdc-1201-4997-bf90-0b5e95e2ac5c")
-		(at 56.75 158.5 180)
+		(at 57.25 158 180)
 		(descr "Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf")
 		(tags "antenna")
 		(property "Reference" "AE1"
@@ -8370,7 +8370,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "73622e6d-43aa-4d0f-819b-1107d645b88d")
-		(at 63.105 158.485)
+		(at 63.75 158)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -12873,11 +12873,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b5f0e897-fe21-4eb2-a219-cafd374f6f04")
-		(at 69.25 157 90)
+		(at 69.5 158 -67.5)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.16 90)
+			(at 0 -1.16 112.5)
 			(layer "F.SilkS")
 			(uuid "5b947457-5a04-446c-8182-8b19b0f27fba")
 			(effects
@@ -12888,7 +12888,7 @@
 			)
 		)
 		(property "Value" "1p2"
-			(at 0 1.16 90)
+			(at 0 1.16 112.5)
 			(layer "F.Fab")
 			(uuid "b8e3ad8d-4371-41b0-82fd-131e3974fd70")
 			(effects
@@ -12899,7 +12899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 112.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57179cc3-af5d-4c38-8748-491e2cf61680")
@@ -12910,7 +12910,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 112.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "776a982b-1bd8-4e7b-a491-8ee6f19e4ec4")
@@ -12921,7 +12921,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 112.5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dbdae49f-2b95-432f-a98a-52111dec4be2")
@@ -12933,7 +12933,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 90)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12946,7 +12946,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GJM1555C1H1R2WB01D"
-			(at 0 0 90)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12959,7 +12959,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 0 0 90)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12972,7 +12972,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C76899"
-			(at 0 0 90)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12997,7 +12997,17 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
+			(start -0.107836 0.36)
+			(end 0.107836 0.360001)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d96a5b76-bfef-40b7-94a2-60576a4dbb6c")
+		)
+		(fp_line
+			(start -0.107836 -0.360001)
 			(end 0.107836 -0.36)
 			(stroke
 				(width 0.12)
@@ -13006,19 +13016,10 @@
 			(layer "F.SilkS")
 			(uuid "c957acfb-c998-4c00-b74f-70319c9c25cf")
 		)
-		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
+		(fp_poly
+			(pts
+				(xy -0.91 0.46) (xy -0.91 -0.46) (xy 0.91 -0.46) (xy 0.91 0.46)
 			)
-			(layer "F.SilkS")
-			(uuid "d96a5b76-bfef-40b7-94a2-60576a4dbb6c")
-		)
-		(fp_rect
-			(start -0.91 -0.46)
-			(end 0.91 0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -13027,9 +13028,10 @@
 			(layer "F.CrtYd")
 			(uuid "6114e6f2-6984-4eff-bc25-674cd8811672")
 		)
-		(fp_rect
-			(start -0.5 -0.25)
-			(end 0.5 0.25)
+		(fp_poly
+			(pts
+				(xy -0.5 0.25) (xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -13039,7 +13041,7 @@
 			(uuid "f4a97d92-4d95-4b36-835b-98a387e48de1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 112.5)
 			(layer "F.Fab")
 			(uuid "0c4a8181-c837-49e5-ba9f-6c47cfaa294c")
 			(effects
@@ -13050,7 +13052,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0 292.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13059,7 +13061,7 @@
 			(uuid "a4c418c5-a74e-4949-9f04-2a3ef005a486")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0 292.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17870,7 +17872,7 @@
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fed34e64-faf6-4b21-9194-4a8055af62d0")
-		(at 61.575 158.985 -90)
+		(at 62.25 157.5 90)
 		(descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "inductor")
 		(property "Reference" "L3"
@@ -17975,7 +17977,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.485 0 270)
+			(at -0.485 0 90)
 			(size 0.59 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17985,7 +17987,7 @@
 			(uuid "127e5174-f252-4f76-84b1-12f92844fa1d")
 		)
 		(pad "2" smd roundrect
-			(at 0.485 0 270)
+			(at 0.485 0 90)
 			(size 0.59 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21029,6 +21031,36 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "68a4570e-2db1-42b6-8ba3-5411ca904ac0")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(uuid "0c0623b2-aded-4960-b9dc-451ae80a5b8e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 54 152.75) (xy 63.5 152.75) (xy 63.5 160) (xy 54 160)
+			)
+		)
 	)
 	(zone
 		(net "GND")
